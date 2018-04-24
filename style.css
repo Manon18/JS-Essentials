@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("http://www.windows10wallpapers.net/downloads/4K-Windows10Wallpaper-IcePlanet.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 100%;
+}
+
+.main_container {
+  width: 60%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.haha_inner {
+  width: 15%;
+}
+
+.easy_inner {
+  width: 15%;
+}
+
+.medium_inner {
+  width: 15%;
+}
+
+.hard_inner {
+  width: 15%;
+}
+
+.super_hard_inner {
+  width: 15%;
+}
+
+h2 {
+  color: #00091a;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin-top: 10px;
+  border: 0.5px solid #001a4d;
+  border-radius: 5px;
+  background-color: #00ccff;
+  padding: 8px;
+  box-shadow: 0 1px 30px 0 #05A094;
+  cursor: pointer;
+}
+
+ul li:hover {
+  box-shadow: 0 7px 40px 0 #004466;
+}
+
+li a {
+  color: #001a4d;
+  font-size: 25px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.75;
+  color: #003399;
+}
+
+@media screen and (max-width: 1220px) {
+  ul li {
+    padding: 5px;
+  }
+
+  .main_container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main_container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .main_container {
+    width: 95%;
+    flex-flow: column wrap;
+  }
+
+  .haha_inner {
+    width: 35%;
+  }
+
+  .easy_inner {
+    margin-top: 15px;
+    width: 35%;
+  }
+
+  .medium_inner {
+    margin-top: 15px;
+    width: 35%;
+  }
+
+  .hard_inner {
+    margin-top: 15px;
+    width: 35%;
+  }
+
+  .super_hard_inner {
+    margin-top: 15px;
+    width: 35%;
+  }
+}
